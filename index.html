@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Build A Weather App in HTML CSS and JavaScript</title>
+    <link rel="stylesheet" href="/JS Project2/style.css">
+    <script src="/JS Project2/script.js" defer></script>
+</head>
+<body>
+    <h1>Weather <span></span></h1>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="/JS Project2/image/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="/JS Project2/image/rainy-sun.png" class="weather-icon">
+            <h2 class="temp">22°C</h2>
+            <h3 class="city">London</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="/JS Project2/image/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">46%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/JS Project2/image/windy-weather.png" alt="wind">
+                    <div>
+                        <p class="wind">12 M/S</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        <div class="days-forecast">
+            <h2>4-Day Forecast</h2>
+            <ul class="weather-cards">
+                <li class="cards">
+                    <h3>Mon</h3>
+                    <img src="/JS Project2/image/global-weather.png" alt="weather-icon">
+                    <h6>Temp:21°C</h6>
+                    <h6>Wind:3.21 m/s</h6>
+                    <h6>Humidity:65%</h6>
+                </li>
+                <li class="cards">
+                    <h3>Tues</h3>
+                    <img src="/JS Project2/image/cloudy-weather.png" alt="weather-icon">
+                    <h6>Temp:19°C</h6>
+                    <h6>Wind:5.45 m/s</h6>
+                    <h6>Humidity:70%</h6>
+                </li>
+                <li class="cards">
+                    <h3>Wed</h3>
+                    <img src="/JS Project2/image/umbrella.png" alt="weather-icon">
+                    <h6>Temp:17°C</h6>
+                    <h6>Wind:4.47 m/s</h6>
+                    <h6>Humidity:59%</h6>
+                </li>
+                <li class="cards">
+                    <h3>Thurs</h3>
+                    <img src="/JS Project2/image/rain.png" alt="weather-icon">
+                    <h6>Temp:25°C</h6>
+                    <h6>Wind:4.87 m/s</h6>
+                    <h6>Humidity:69%</h6>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
